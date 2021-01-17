@@ -132,9 +132,9 @@ turnHoursToMinutes(movies);
 // ✅ BONUS - Iteration 8: Best yearly rate average - Best yearly rate average
 
 const bestYearAvg = (movies) => {
-  const moviesClone = [...movies];
-
   if (movies.length === 0) return null;
+
+  const moviesClone = [...movies];
 
   let movieYears = {};
 
